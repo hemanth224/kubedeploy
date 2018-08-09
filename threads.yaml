@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: threads
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: threads
   ports:
