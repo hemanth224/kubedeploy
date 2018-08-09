@@ -8,7 +8,7 @@ spec:
     app: threads
   ports:
   - protocol: TCP
-    port: 3000
+    port: 31000
     nodePort: 31000
 
 ---
@@ -33,4 +33,4 @@ spec:
       - name: threads
         image: hemanth224/threads
         ports:
-        - containerPort: 3000
+        - containerPort: 31000
